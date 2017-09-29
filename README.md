@@ -6,6 +6,7 @@ Requirements:
 4. time (If inbuilt is not in your machine)
 5. datetime (If inbuilt is not in your machine)
 6. threading (If inbuilt is not in your machine)
+7. PyQt4
 
 How to run the script:
 
@@ -21,22 +22,11 @@ How to run the script:
 
 4.Start the script
  
-    eg. ./Mangekyou-Scanner.py
+    eg. ./main.py
 
 Description about Script:
  
- When you run the script you see 3 options:
- 1. Simple Port Scan 
- 2. Ultimate Mode: Port Scan + Banner Grabbing (Normal Speed Scan) [Recommended] 
- 3. Advanced Mode: Port Scan + Banner Grabbing (Fast speed Scan)   [Not Recommended] 
- 
- 1st option just scan for open port.
- 2nd option show open port and give information of that open port.
- 3rd option do same like 2nd option but in 3rd option speed increase of scanning ports but i not recommended to use it because some time server blocks your ip because of using 3rd option advanced mode and you get error of 'Timed out' i suggest to use ULtimate mode.
- 
- When you select any option from above 3 option then script ask you that you want to scan select port numbers or scan all ports if you want to scan selected ports then write ports number otherwise click enter to scan all default ports.
- 
- Please be patient if you select all defaults ports for scan.
+This GUI for Ultimate Mode (Port Scan + Banner Grabbing (Normal Speed Scan) [Recommended] ) in Mangekyou-Sanner.
 
 Credits:
      
